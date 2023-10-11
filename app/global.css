@@ -22,11 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-    font-weight: 500; /* Normal weight */
+    font-weight: 400; /* Normal weight */
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-weight: 1000; /* Bold weight */
+    font-weight: 700; /* Bold weight */
 }
 
 body {

@@ -1,0 +1,20 @@
+/* Footer.css */
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.divider {
+  flex-grow: 1;
+  height: 1px;
+  background-color: grey;
+  margin: 0 10px;
+}
+
+.link {
+  text-decoration: underline;
+}
+
+/* ... other styles ... */
