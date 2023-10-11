@@ -1,10 +1,10 @@
 // Footer.tsx
 import React from "react";
-import "./Footer.css";  // make sure to create this CSS file
+import "./footer.css";  // make sure to create this CSS file
 
 export default function Footer() {
   return (
-    <footer className="layout-md mt-20 text-lg flex flex-col">
+    <footer className="layout-md mt-40 text-lg flex flex-col">
       <div className="row flex items-center justify-between">
         <span>Twitter</span>
         <div className="divider"></div>
