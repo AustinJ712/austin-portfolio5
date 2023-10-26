@@ -12,6 +12,11 @@ html {
   background-color: #fefefe !important; /* White background */
 }
 
+.project-pair:hover {
+  background-color: grey;
+}
+
+
 /* styles.module.css */
 .link {
     text-decoration-line: underline;
