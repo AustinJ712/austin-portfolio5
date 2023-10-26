@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import supportsColor from "supports-color";
+import './global.css'
 
 export default function Page() {
   return (
@@ -25,16 +26,32 @@ export default function Page() {
       <p style={{ fontWeight: 500, fontSize: '16px' }}>To accomplish this, I am a generalist with a passion for end-to-end problem solving that marries<em className="svelte-ikj1jd"> system and interaction design</em>.</p>
       <p style={{ fontWeight: 500, fontSize: '16px' }}>Other interests: 3D technologies like NeRF and Gaussian Splatting, drone photography, exercise, playing basketball, reading The Economist and Medium articles on computer science.</p>
       </div> <div className="leading-snug space-y-4">
-      <div style={{ padding: '16px 0' }}> {/* This will give some space around the Notable work section */}
-              <p style={{ fontWeight: 600, fontSize: '16px', marginBottom: '0px' }}>Notable work:</p>
+      <div style={{ padding: '0px 0' }}> {/* This will give some space around the Notable work section */}
+              <p style={{ fontWeight: 500, fontSize: '16px', marginBottom: '0px' }}>Notable work:</p>
             
     </div>
       <div className="my-4"></div>
-      <a className=".project-pair" href="/projects#bore">
-        <div className="text-black font-medium" style={{fontWeight: 600, fontSize: '16px'}}>Bore <svg width="18" height="18" stroke="currentColor" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+      <a className="project-pair" style={{ marginBottom: '8px' }} href="/projects#cashrentstimate">
+        <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px'}}>CashRentstimate algorithm <svg width="18" height="18" stroke="#737373" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </div>
-          <div><p style={{color:"#404040" , fontWeight: 400, fontSize: '16px'}}>bypass your NAT in just 400 lines of code and its the leading estimate calculator in farmladn</p>
-        <aside className="svelte-ikj1jd" style={{ color: '#737373', fontWeight: 400, fontSize: '16px'}}>6500+ stars on GitHub</aside>
+          <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px'}}>An ML-based tool to estimate the value of farmland in a lease agreement.</p>
+        <aside style={{ color: '#737373', fontWeight: 400, fontSize: '16px'}}>65k+ estimates sought</aside>
+        </div>
+      </a>
+      <div className="my-4"></div>
+      <a className="project-pair" style={{ marginBottom: '8px' }} href="/projects#bore">
+        <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px'}}>Multiparcel Auction Bidding System<svg width="18" height="18" stroke="#737373" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </div>
+          <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px'}}>Fully designed from UX to logic to database schema.</p>
+        <aside style={{ color: '#737373', fontWeight: 400, fontSize: '16px'}}>1st in the industry</aside>
+        </div>
+      </a>
+      <div className="my-4"></div>
+      <a className="project-pair" style={{ marginBottom: '8px' }} href="/projects#bore">
+        <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px'}}>Cita Reservations<svg width="18" height="18" stroke="#737373" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </div>
+          <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px'}}>A marketplace to purchase the country's most highly sought after reservations.</p>
+        <aside style={{ color: '#737373', fontWeight: 400, fontSize: '16px'}}>Founder - sued by Amex/Resy</aside>
         </div>
       </a>
         {/* <p class="pb-2">Notable work:</p> <a class="project-pair svelte-ikj1jd" href="/projects#bore"><div class="text-black font-medium">Bore <svg width="18" height="18" stroke="currentColor" stroke-width="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>bypass your NAT in just 400 lines of code</p> <aside class="svelte-ikj1jd">6500+ stars on GitHub</aside></div> </a><a class="project-pair svelte-ikj1jd" href="/projects#percival"><div class="text-black font-medium">Percival <svg width="18" height="18" stroke="currentColor" stroke-width="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>reactive notebooks for exploratory data analysis</p> </div> </a><a class="project-pair svelte-ikj1jd" href="/projects#rustpad"><div class="text-black font-medium">Rustpad <svg width="18" height="18" stroke="currentColor" stroke-width="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>self-hosted collaborative text editor</p> <aside class="svelte-ikj1jd">2M+ downloads</aside></div> </a><a class="project-pair svelte-ikj1jd" href="/projects#crepe"><div class="text-black font-medium">Crepe <svg width="18" height="18" stroke="currentColor" stroke-width="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>compiled Datalog language in Rust</p> <aside class="svelte-ikj1jd">used by distributed databases &amp; security systems</aside></div> </a><a class="project-pair svelte-ikj1jd" href="/projects#fastseg"><div class="text-black font-medium">FastSeg <svg width="18" height="18" stroke="currentColor" stroke-width="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>real-time semantic segmentation for self-driving cars</p> </div> </a><a class="project-pair svelte-ikj1jd" href="/projects#setwithfriends"><div class="text-black font-medium">Set with Friends <svg width="18" height="18" stroke="currentColor" stroke-width="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>online multiplayer card game</p> <aside class="svelte-ikj1jd">30M+ page views, 900K+ users</aside></div> </a></div> <div class="space-y-5"><p>Previously, I worked at <a class="link" href="https://prosper.org">Prosper Robotics</a>, <a class="link" href="https://convex.dev">Convex</a>,
