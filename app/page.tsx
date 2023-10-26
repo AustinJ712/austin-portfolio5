@@ -1,6 +1,6 @@
 import React from "react";
-import NotableWorks from "./components/NotableWorks";
 import Footer from "./Footer";
+import supportsColor from "supports-color";
 
 export default function Page() {
   return (
