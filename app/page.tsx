@@ -27,19 +27,20 @@ export default function Page() {
       </div> <div className="leading-snug space-y-4">
       <div style={{ padding: '16px 0' }}> {/* This will give some space around the Notable work section */}
               <p style={{ fontWeight: 600, fontSize: '16px', marginBottom: '12px' }}>Notable work:</p>
-              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px', alignItems: 'center' }}>
-                <div style={{ display: 'flex', alignItems: 'center' }}>
-                    <div className="text-black font-medium" style={{ fontSize: '16px' }}>Bore</div>
-                    <svg width="16" height="16" stroke="currentColor" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right ml-2 text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <line x1="7" y1="17" x2="17" y2="7"></line>
-                        <polyline points="7 7 17 7 17 17"></polyline>
-                    </svg>
-                </div>
-                <div>
-                    <p style={{ fontWeight: 500, fontSize: '16px', color: '#404040' }}>bypass your NAT in just 400 lines of code</p>
-                    <aside style={{ fontWeight: 500, fontSize: '16px', color: '#737373' }}>6500+ stars on GitHub</aside>
-                </div>
-            </div>
+              <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '12px' }}>
+                  <div style={{ display: 'flex', alignItems: 'flex-start' }}>
+                      <div className="text-black font-medium" style={{ alignSelf: 'flex-start' }}>Bore</div>
+                      <svg width="18" height="18" stroke="currentColor" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right ml-2 text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <line x1="7" y1="17" x2="17" y2="7"></line>
+                          <polyline points="7 7 17 7 17 17"></polyline>
+                      </svg>
+                  </div>
+                  <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'flex-start' }}>
+                      <p style={{ margin: 0 }}>bypass your NAT in just 400 lines of code</p>
+                      <aside style={{ fontSize: '14px', color: '#a3a3a3', marginTop: '4px' }}>6500+ stars on GitHub</aside>
+                  </div>
+              </div>
+
         {/* Repeat the above div for each project */}
     </div>
 
