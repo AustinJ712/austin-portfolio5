@@ -6,7 +6,7 @@ import NotableWorkItem from './NotableWorkItem';
 interface WorkProps {
     title: string;
     description: string;
-    link: string;
+    metric: string;
 }
 
 interface Props {
@@ -21,7 +21,7 @@ const NotableWorks: React.FC<Props> = ({ works }) => {
                     key={work.title} 
                     title={work.title} 
                     description={work.description}
-                    link={work.link}
+                    metric={work.metric}
                 />
             ))}
         </div>

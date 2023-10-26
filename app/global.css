@@ -21,14 +21,21 @@ html {
 
 body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     background-color: #fefefe; /* White background */
     font-weight: 400; /* Normal weight */
     color: #404040; /* Dark gray text */
 }
 
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+  font-size: 18px;
+  background-color: #fefefe; /* White background */
+  font-weight: 400; /* Normal weight */
+  color: #404040; /* Dark gray text */
+}
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-size: 24px;
     font-weight: 700;
     color: #000;
@@ -122,6 +129,48 @@ table {
 .prose .callout > p {
   margin: 0 !important;
 }
+
+/* styles.css */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card-container {
+  padding: 20px; /* adjust based on desired spacing around the card */
+  border: 1px solid #E0E0E0; /* if you want a light border around the card */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* optional: adds a subtle shadow */
+}
+
+
+.header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
+
+.project-name {
+  font-weight: bold;
+}
+
+.project-description {
+  flex: 1;
+  text-align: right;
+  margin-left: 20px;
+}
+
 
 [data-rehype-pretty-code-fragment] code {
   @apply grid min-w-full break-words rounded-none border-0 bg-transparent p-0 text-sm text-black;
