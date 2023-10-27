@@ -26,8 +26,8 @@ html {
   background-color: #fefefe !important; /* White background */
 }
 
-.project-pair:hover {
-  background-color: lightgrey !important;
+.project-pair {
+  margin-bottom: 8px;
 }
 
 
@@ -188,6 +188,14 @@ table {
   flex: 1;
   text-align: right;
   margin-left: 20px;
+}
+
+.project-hover:hover {
+  background-color: darkblue !important; /* Replace with the color you want */
+}
+
+.underline-on-hover:hover {
+  text-decoration: underline;
 }
 
 
