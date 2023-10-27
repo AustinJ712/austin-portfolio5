@@ -20,4 +20,6 @@
 }
 
 
-/* ... other styles ... */
+.layout-md {
+  margin-bottom: 16px;
+}
