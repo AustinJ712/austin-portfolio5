@@ -191,7 +191,7 @@ table {
 }
 
 .project-hover:hover {
-  background-color: darkblue !important; /* Replace with the color you want */
+  background-color: lightgrey !important; /* Replace with the color you want */
 }
 
 .underline-on-hover:hover {
