@@ -1,11 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'newsreaderFont';
+  src: url('/fonts/Newsreader.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'newsreaderItalicFont';
+  src: url('/fonts/Newsreader-Italic.ttf') format('truetype');
+}
+
 
 ::selection {
   background-color: #47a3f3;
   color: #fefefe;
 }
+
+.newsreaderFont {
+  font-family: 'Newsreader', system-ui, sans-serif;
+}
+
 
 html {
   min-width: 360px;
