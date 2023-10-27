@@ -5,7 +5,7 @@ import './global.css'
 
 export default function Page() {
   return (
-    <section style={{ paddingLeft: '10px' }}>
+    <section>
       <div className="flex items-start mb-4" style={{ flexDirection: 'column' }}>
         <div className="flex items-start mb-4">
          <img className="w-24 h-24 rounded-full mr-2" src={'/images/profile-pic/profilePic.jpg'} alt="Profile Image" />
@@ -22,10 +22,12 @@ export default function Page() {
           <span className="g">.</span>
       </p>
       <p style={{ fontWeight: 500, fontSize: '16px' }}>I currently work as the COO of <a className="link" href="https://commonground.io/app">CommonGround</a>, a marketplace that connects farmers, landowners, and real estate professionals aimed at building the future of land transactions.</p>
-      <p style={{ fontWeight: 500, fontSize: '16px' }}>My ambition is to build products that people love by sweating the details.</p>
+      <p style={{ fontWeight: 500, fontSize: '16px' }}>My
+      <em className="svelte-ikj1jd" style={{ fontSize: '18px', fontFamily: 'newsreaderItalicFont', fontWeight: 500 }}> ambition </em>
+      is to build products that people love by sweating the details.</p>
       <p style={{ fontWeight: 500, fontSize: '16px' }}>
         To accomplish this, I am a generalist with a passion for end-to-end problem solving that marries
-        <em className="svelte-ikj1jd" style={{ fontSize: '16px', fontFamily: 'newsreaderItalicFont', fontWeight: 600 }}> system and interaction design</em>.
+        <em className="svelte-ikj1jd" style={{ fontSize: '18px', fontFamily: 'newsreaderItalicFont', fontWeight: 500 }}> system and interaction design</em>.
     </p>
 
       <p style={{ fontWeight: 500, fontSize: '16px' }}>Other interests: 3D technologies like NeRF and Gaussian Splatting, drone photography, exercise, playing basketball, reading The Economist and Medium articles on computer science.</p>
