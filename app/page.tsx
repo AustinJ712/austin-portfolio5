@@ -37,7 +37,7 @@ export default function Page() {
             
     </div>
       <div className="my-6"></div>
-      <a className="project-pair project-hover underline-on-hover" href="/projects#cashrentstimate">
+      <a className="project-pair project-hover underline-on-hover" href="projects#cashrenstimate-algorithm">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>CashRentstimate algorithm <svg width="18" height="18" stroke="#737373" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </div>
           <div><p style={{ color:"#404040" , fontWeight: 500, fontSize: '16px'}}>An ML-based tool to estimate the value of farmland in a lease agreement.</p>
@@ -45,7 +45,7 @@ export default function Page() {
         </div>
       </a>
       <div className="my-6"></div>
-      <a className="project-pair underline-on-hover" href="/projects#bore">
+      <a className="project-pair underline-on-hover" href="projects#multiparcel-auction-system">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>Multiparcel Auction Bidding System<svg width="18" height="18" stroke="#737373" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </div>
           <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px' }}>Fully designed from UX to logic to database schema.</p>
@@ -53,7 +53,7 @@ export default function Page() {
         </div>
       </a>
       <div className="my-6"></div>
-      <a className="project-pair underline-on-hover" href="/projects#bore">
+      <a className="project-pair" href="/projects#bore">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>Cita Reservations<svg width="18" height="18" stroke="#737373" stroke-width="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </div>
           <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px'}}>A marketplace to purchase the country's most highly sought after reservations.</p>
