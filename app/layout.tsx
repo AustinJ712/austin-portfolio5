@@ -10,10 +10,10 @@ export const metadata: Metadata = {
     default: 'Austin Suhr',
     template: '%s | Austin Suhr',
   },
-  description: 'Developer, writer, and creator.',
+  description: 'Product engineer, writer, and creator.',
   openGraph: {
     title: 'Austin Suhr',
-    description: 'Developer, writer, and creator.',
+    description: 'Product Engineer, writer, and creator.',
     url: 'https://austinsuhr.com',
     siteName: 'Austin Suhr',
     locale: 'en_US',
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
   },
   verification: {
-    google: 'eZSdmzAXlLkKhNJzfgwDqWORghxnJ8qR9_CHdAh5-xw',
+    google: 'bwM8WZoXVRkR54W9jGEzZFuCa-j1Ocm69uyaQ7GyR2U',
     yandex: '14d2e73487fa6c71',
   },
 };
