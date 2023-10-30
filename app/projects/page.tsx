@@ -1,6 +1,6 @@
 // pages/projects.tsx
 import ProjectCard from '../components/ProjectCard';
-import Footer from "/app/Footer.tsx";
+import Footer from "../Footer";
 
 function Projects() {
   const projects = [
