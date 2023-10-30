@@ -20,8 +20,13 @@ function ProjectCard({ project }) {
             )}
         </div>
         <div className="links">
-            <p style={{ fontWeight: 500, fontSize: '12px' }}>Links:&nbsp;
-                <a href={project.demoLink}>CashRentstimate</a>
+            <p style={{ fontWeight: 500, fontSize: '12px' }}>Link(s):&nbsp;
+                {project.links.map((link, idx) => (
+                        <span key={idx}>
+                            <a href={link.url}>{link.text}</a>
+                            {idx !== project.links.length - 1 && <span>,&nbsp;</span>}
+                        </span>
+                ))}
             </p>
         </div>
       </div>
