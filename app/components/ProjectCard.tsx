@@ -1,5 +1,6 @@
 // components/ProjectCard.tsx
 import styles from './ProjectCard.module.css';
+import Image from 'next/image'
 
 function ProjectCard({ project }) {
     return (
@@ -11,13 +12,16 @@ function ProjectCard({ project }) {
         <div className={styles.description} dangerouslySetInnerHTML={{ __html: project.description }}></div>
         <div className="images">
           {project.images.map((img, index) => 
-          <img 
-            key={index}
-            src={img}
-            alt={`Screenshot for ${project.name}`}
-            className={styles.image}
+            <Image 
+              key={index}
+              src={img}
+              alt={`Screenshot for ${project.name}`}
+              layout="responsive"
+              width={500}  // Replace with the original width of your image
+              height={300} // Replace with the original height of your image
+              className={styles.image}
             />
-            )}
+          )}
         </div>
         <div className="links">
             <p style={{ fontWeight: 500, fontSize: '12px' }}>Link(s):&nbsp;
