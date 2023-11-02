@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
             <Image 
               key={index}
               src={img}
-              alt={`Screenshot for ${project.name}`}
+              alt={`Screenshot for Austin Suhr ${project.name}`}
               layout="responsive"
               width={500}  // Replace with the original width of your image
               height={300} // Replace with the original height of your image
