@@ -1,6 +1,7 @@
 // pages/projects.tsx
 import ProjectCard from '../components/ProjectCard';
 import Footer from "../Footer";
+import supportsColor from "supports-color";
 
 function Projects() {
   const projects = [
