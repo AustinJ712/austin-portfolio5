@@ -9,7 +9,7 @@ export default async function sitemap() {
 
   const routes = ['', /*'/blog', '/uses', */ '/projects'].map(
     (route) => ({
-      url: `https://austinsuhr.com${route}`,
+      url: `https://www.austinsuhr.com${route}`,
       lastModified: new Date().toISOString().split('T')[0],
     })
   );

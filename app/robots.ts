@@ -5,7 +5,7 @@ export default function robots() {
         userAgent: '*',
       },
     ],
-    sitemap: 'https://austinsuhr.com/sitemap.xml',
-    host: 'https://austinsuhr.com',
+    sitemap: 'https://www.austinsuhr.com/sitemap.xml',
+    host: 'https://www.austinsuhr.com',
   };
 }

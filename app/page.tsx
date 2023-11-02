@@ -8,7 +8,7 @@ export default function Page() {
     <section>
       <div className="flex items-start mb-4" style={{ flexDirection: 'column' }}>
         <div className="flex items-start mb-4">
-         <img className="w-24 h-24 rounded-full mr-2" src={'/images/profile-pic/profilePic.jpg'} alt="Profile Image" />
+         <img className="w-24 h-24 rounded-full mr-2" src={'/images/profile-pic/profilePic.jpg'} alt="Austin Suhr Profile Image" />
         </div>
       </div>
       <h1 className="font-bold text-2xl mb-4 tracking-tighter" style={{ fontWeight: 600 }}>Austin Suhr</h1>
