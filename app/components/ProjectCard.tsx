@@ -11,14 +11,15 @@ function ProjectCard({ project }) {
         </div>
         <div className={styles.description} dangerouslySetInnerHTML={{ __html: project.description }}></div>
         <div className="images">
-          {project.images.map((img, index) => 
+          {project.images.map((imgObj, index) => 
             <Image 
               key={index}
-              src={img}
-              alt={`Screenshot for Austin Suhr ${project.name}`}
+              src={imgObj.src}
+              alt={imgObj.src || `Screenshot for Austin Suhr ${project.name}`}
               layout="responsive"
-              width={500}  // Replace with the original width of your image
-              height={300} // Replace with the original height of your image
+              width={imgObj.width || 500}  // Replace with the original width of your image
+              height={imgObj.height || 300} // Replace with the original height of your image
+              loading={imgObj.loading || "lazy"}
               className={styles.image}
             />
           )}
