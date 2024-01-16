@@ -1,3 +1,5 @@
+const { withNextVideo } = require('next-video/process')
+
 const { get } = require('@vercel/edge-config');
 const { withContentlayer } = require('next-contentlayer');
 
@@ -72,4 +74,4 @@ const securityHeaders = [
   },
 ];
 
-module.exports = withContentlayer(nextConfig);
+module.exports = withNextVideo(nextConfig);
