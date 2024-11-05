@@ -17,22 +17,20 @@ function ProjectCard({ project }) {
       <div className="images">
         {project.images.map((imgObj, index) => 
           isCitaReservations ? (
-            // If it's the "Cita Reservations" project, use <Video /> instead of <Image />
+            // Use <Video /> for the "Cita Reservations" project
             <Video 
               key={index}
-              src={imgObj.src} // Make sure this is a video file
-              layout="responsive"
-              width={imgObj.width || 500}  // Replace with the original width of your video
-              height={imgObj.height || 300} // Replace with the original height of your video
+              src={imgObj.src}
+              width={imgObj.width || 500}
+              height={imgObj.height || 300}
               controls
             />
           ) : (
-            // Else, use <Image />
+            // Use <Image /> for other projects
             <Image 
               key={index}
               src={imgObj.src}
               alt={imgObj.alt}
-              layout="responsive"
               width={imgObj.width || 500}
               height={imgObj.height || 300}
               loading={imgObj.loading || "lazy"}
@@ -42,17 +40,17 @@ function ProjectCard({ project }) {
         )}
       </div>
       <div className="links">
-            <p style={{ fontWeight: 500, fontSize: '12px' }}>Link(s):&nbsp;
-                {project.links.map((link, idx) => (
-                        <span key={idx}>
-                            <a href={link.url}>{link.text}</a>
-                            {idx !== project.links.length - 1 && <span>,&nbsp;</span>}
-                        </span>
-                ))}
-            </p>
-        </div>
+        <p style={{ fontWeight: 500, fontSize: '12px' }}>Link(s):&nbsp;
+          {project.links.map((link, idx) => (
+            <span key={idx}>
+              <a href={link.url}>{link.text}</a>
+              {idx !== project.links.length - 1 && <span>,&nbsp;</span>}
+            </span>
+          ))}
+        </p>
       </div>
-    );
-  }
-  export default ProjectCard;
-  
+    </div>
+  );
+}
+
+export default ProjectCard;
