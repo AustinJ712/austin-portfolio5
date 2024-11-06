@@ -2,7 +2,9 @@
 import ProjectCard from '../components/ProjectCard';
 import Footer from "../Footer";
 import supportsColor from "supports-color";
-import CitaPrototype from '/videos/cita-prototype.mp4'; // Updated import path
+import Video from 'next-video'
+import citaPrototype2 from '/videos/citaPrototype2.mp4';
+import { link } from 'fs';
 
 function Projects() {
   const projects = [
@@ -48,22 +50,65 @@ function Projects() {
         },
       ]
     },
-    {
+    /*{
       name: 'Cita Reservations',
       date: 'June 2022',
       tags: ['Design', 'UI/UX', 'Database Architecture'],
       description: `Cita Reservations is a platform selling access to the country's most sought after reservations. Participating restaurants include Carbone, Mother Wolf Los Angeles, 4 Charles Prime Rib, and more. <br /><br />I founded the company to solve a problem: I wanted to go to the restaurants I wanted to without having to plan a month in advance. Cita solved this problem for me and for a few thousand others before being served a cease and desist letter by American Express (the owner of Resy).<br /><br />I had a ton of fun.`,
       images: [
         {
-          src: CitaPrototype, // Use the imported video
+          src: {citaPrototype2},
+          type: 'video',  // Add this to identify it as a video
+          width: 600,
+          height: 400,
           alt: 'Cita Reservations Prototype Video',
+          loading: 'lazy',
+        },
+      ],
+      links: [
+        // Add any relevant links here
+      ]
+    },*/
+    {
+      name: 'Lockhop',
+      date: 'June 2024',
+      tags: ['Design', 'Database archtecture', 'Mongodb', 'GraphQL', 'React', 'Node.js'],
+      description: 'CTO',
+      images: [
+        {
+          src: '/images/lockhop.png',
+          alt: 'Austin Suhr Multiparcel Auction Bidding System Visualization',
           loading: 'lazy',
           width: 600,
           height: 400,
         },
       ],
       links: [
-        // Add any relevant links here
+        {
+          url: 'https://lockhop.com',
+          text: 'Lockhop'
+        },
+      ]
+    },
+    {
+      name: 'Melrose Technology',
+      date: 'January 2024',
+      tags: ['Python', 'Conversational AI', 'Real estate'],
+      description: 'Founder',
+      images: [
+        {
+          src: '/images/melrose-technology.png',
+          alt: 'Austin Suhr Multiparcel Auction Bidding System Visualization',
+          loading: 'lazy',
+          width: 600,
+          height: 348,
+        },
+      ],
+      links: [
+        {
+          url: 'https://www.melroserealestatetechnology.com/',
+          text: 'Melrose Technology'
+        },
       ]
     },
   ];
