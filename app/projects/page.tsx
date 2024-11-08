@@ -33,7 +33,7 @@ function Projects() {
       name: 'Multiparcel Auction System',
       date: 'June 2023',
       tags: ['Python', 'UI/UX', 'Database Architecture'],
-      description: `Multi-parcel auctions, also known as multi-unit auctions, are a method used for selling multiple, separate land parcels simultaneously in a single auction event. In this auction format, bidders can bid on individual parcels, combinations of parcels, or the entire collection of parcels as a whole. The goal is to maximize the total revenue generated from the sale while allowing bidders the flexibility to determine the most valuable combinations for themselves. The winning combination of bids is typically determined based on the highest total revenue generated or other predefined objectives. Multi-parcel auctions have gained popularity due to their efficiency and ability to accommodate the diverse needs of both buyers and sellers. <br /><br />I led the creation, ideation, and development of the land industry's first fully online multi-parcel auction bidding system. In order to do so, I created a python simulation of a multi-parcel auction bidding system, designed the database architecture required for this system, and led the UI/UX designs efforts to implement it`,
+      description: `Multi-parcel auctions, also known as multi-unit auctions, are a method used for selling multiple, separate land parcels simultaneously in a single auction event. In this auction format, bidders can bid on individual parcels, combinations of parcels, or the entire collection of parcels as a whole. The goal is to maximize the total revenue generated from the sale while allowing bidders the flexibility to determine the most valuable combinations for themselves. The winning combination of bids is typically determined based on the highest total revenue generated or other predefined objectives.<br /><br />I led the creation, ideation, and development of the land industry's first fully online multi-parcel auction bidding system. In order to do so, I created a python simulation of a multi-parcel auction bidding system, designed the database architecture required for this system, and led the UI/UX designs efforts to implement it`,
       images: [
         {
           src: '/images/multiparcel-auction-1.png',
@@ -73,7 +73,7 @@ function Projects() {
       name: 'Lockhop',
       date: 'June 2024',
       tags: ['Design', 'Database archtecture', 'Mongodb', 'GraphQL', 'React', 'Node.js'],
-      description: 'CTO',
+      description: 'Lockhop is a real estate marketplace platform that allows agents to directly incentivize one another to bring buyer clients to their listing showings.<br /><br />The goal of Lockhop is to change the way that agents show homes, ensuring that all parties benefit from the showing event and providing listing agents with an additional tool in their belt to market listings.<br /><br /> As CTO of Lockhop, I led product, design, and development efforts from zero to one.',
       images: [
         {
           src: '/images/lockhop.png',
@@ -94,7 +94,7 @@ function Projects() {
       name: 'Melrose Technology',
       date: 'January 2024',
       tags: ['Python', 'Conversational AI', 'Real estate'],
-      description: 'Founder',
+      description: 'Melrose Technology uses conversational AI to identify homeowners interested in selling their homes. The seller leads are then given to real estate agents on a percentage of commission basis.',
       images: [
         {
           src: '/images/melrose-technology.png',
