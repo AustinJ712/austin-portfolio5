@@ -1,10 +1,10 @@
 // pages/projects.tsx
 import ProjectCard from '../components/ProjectCard';
 import Footer from "../Footer";
-import supportsColor from "supports-color";
+// import supportsColor from "supports-color";
 import Video from 'next-video'
-import citaPrototype2 from '/videos/citaPrototype2.mp4';
-import { link } from 'fs';
+// import citaPrototypeNew from '/videos/citaPrototypeNew.mp4';
+// import { link } from 'fs';
 
 function Projects() {
   const projects = [
@@ -18,8 +18,6 @@ function Projects() {
           src: '/images/cashrentstimate-4.png',
           alt: 'Austin Suhr CashRentstimate Tool Visualization',
           loading: 'eager',
-          width: 600,
-          height: 400,
         },
       ],
       links: [
@@ -39,8 +37,6 @@ function Projects() {
           src: '/images/multiparcel-auction-1.png',
           alt: 'Austin Suhr Multiparcel Auction Bidding System Visualization',
           loading: 'lazy',
-          width: 600,
-          height: 400,
         },
       ],
       links: [
@@ -57,10 +53,8 @@ function Projects() {
       description: `Cita Reservations is a platform selling access to the country's most sought after reservations. Participating restaurants include Carbone, Mother Wolf Los Angeles, 4 Charles Prime Rib, and more. <br /><br />I founded the company to solve a problem: I wanted to go to the restaurants I wanted to without having to plan a month in advance. Cita solved this problem for me and for a few thousand others before being served a cease and desist letter by American Express (the owner of Resy).<br /><br />I had a ton of fun.`,
       images: [
         {
-          src: {citaPrototype2},
+          src: {citaPrototypeNew},
           type: 'video',  // Add this to identify it as a video
-          width: 600,
-          height: 400,
           alt: 'Cita Reservations Prototype Video',
           loading: 'lazy',
         },
@@ -68,19 +62,17 @@ function Projects() {
       links: [
         // Add any relevant links here
       ]
-    },*/
+    }, */
     {
       name: 'Lockhop',
       date: 'June 2024',
-      tags: ['Design', 'Database archtecture', 'Mongodb', 'GraphQL', 'React', 'Node.js'],
+      tags: ['Design', 'Database architecture', 'Mongodb', 'GraphQL', 'React', 'Node.js'],
       description: 'Lockhop is a real estate marketplace platform that allows agents to directly incentivize one another to bring buyer clients to their listing showings.<br /><br />The goal of Lockhop is to change the way that agents show homes, ensuring that all parties benefit from the showing event and providing listing agents with an additional tool in their belt to market listings.<br /><br /> As CTO of Lockhop, I led product, design, and development efforts from zero to one.',
       images: [
         {
-          src: '/images/lockhop.png',
+          src: '/images/lockhop-4.png',
           alt: 'Austin Suhr Multiparcel Auction Bidding System Visualization',
-          loading: 'lazy',
-          width: 600,
-          height: 400,
+          loading: 'lazy'
         },
       ],
       links: [
@@ -99,9 +91,7 @@ function Projects() {
         {
           src: '/images/melrose-technology.png',
           alt: 'Austin Suhr Multiparcel Auction Bidding System Visualization',
-          loading: 'lazy',
-          width: 600,
-          height: 348,
+          loading: 'lazy'
         },
       ],
       links: [
@@ -114,14 +104,17 @@ function Projects() {
   ];
 
   return (
-    <div>
+    <section className="-ml-[8px] px-2">
       {projects.map((project, index) => (
-        <div key={index} id={project.name.toLowerCase().replace(/\s+/g, '-')}>
+        <div 
+          key={index} 
+          id={project.name.toLowerCase().replace(/\s+/g, '-')}
+        >
           <ProjectCard project={project} />
         </div>
       ))}
       <Footer />
-    </div>
+    </section>
   );
 }
 

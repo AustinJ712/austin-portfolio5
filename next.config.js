@@ -1,13 +1,9 @@
 // next.config.js
 
 const { withNextVideo } = require('next-video/process');
-const { withContentlayer } = require('next-contentlayer');
 
 /** @type {import('next').NextConfig} */
 let nextConfig = {
-  experimental: {
-    serverActions: true,
-  },
   redirects() {
     return [];
   },
@@ -77,6 +73,5 @@ const securityHeaders = [
 
 // Apply both withNextVideo and withContentlayer
 nextConfig = withNextVideo(nextConfig);
-nextConfig = withContentlayer(nextConfig);
 
 module.exports = nextConfig;

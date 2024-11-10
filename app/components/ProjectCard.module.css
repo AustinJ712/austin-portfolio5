@@ -1,7 +1,6 @@
 /* components/ProjectCard.module.css */
 
 .project-card {
-  padding: 20px;
   background-color: #fff; /* adjust as needed */
 }
 
@@ -15,7 +14,7 @@
 }
 
 .project-card h2 span {
-  margin-left: 10px;
+  margin-left: 0px;
   font-size: 0.8em; /* adjust as needed */
   font-weight: 400; /* adjust as needed */
   color: #aaa; /* adjust as needed */
