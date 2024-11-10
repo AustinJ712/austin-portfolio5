@@ -2,7 +2,6 @@
 
 const { withNextVideo } = require('next-video/process');
 const { withContentlayer } = require('next-contentlayer');
-const { get } = require('@vercel/edge-config');
 
 /** @type {import('next').NextConfig} */
 let nextConfig = {
@@ -10,11 +9,7 @@ let nextConfig = {
     serverActions: true,
   },
   redirects() {
-    try {
-      return get('redirects');
-    } catch {
-      return [];
-    }
+    return [];
   },
   headers() {
     return [
