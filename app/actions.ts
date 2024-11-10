@@ -1,4 +1,6 @@
 'use server';
+export const runtime = 'nodejs';
+
 
 import { auth } from 'lib/auth';
 import { type Session } from 'next-auth';
