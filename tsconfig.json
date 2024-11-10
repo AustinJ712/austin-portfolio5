@@ -15,9 +15,9 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "baseUrl": ".",
-    "paths": {
-      "contentlayer/generated": ["./.contentlayer/generated"]
-    },
+    // "paths": {
+    //   "contentlayer/generated": ["./.contentlayer/generated"]
+    // },
     "incremental": true,
     "plugins": [
       {
@@ -32,7 +32,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    ".contentlayer/generated"
+    // ".contentlayer/generated"
   ],
-  "exclude": ["node_modules"]
+  "exclude": ["node_modules", "app/blog/[slug]/page.tsx", "app/blog/page.tsx"]
 }

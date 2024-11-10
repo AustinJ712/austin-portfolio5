@@ -71,7 +71,6 @@ const securityHeaders = [
   },
 ];
 
-// Apply both withNextVideo and withContentlayer
 nextConfig = withNextVideo(nextConfig);
 
 module.exports = nextConfig;
