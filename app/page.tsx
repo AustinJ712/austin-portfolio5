@@ -1,6 +1,5 @@
-import React from "react";
 import Footer from "./Footer";
-import supportsColor from "supports-color";
+// import supportsColor from "supports-color";
 import './global.css'
 
 export default function Page() {
@@ -60,14 +59,14 @@ export default function Page() {
         <aside style={{ color: '#737373', fontWeight: 500, fontSize: '16px', marginBottom: '24px'}}>Founder - sued by Amex/Resy</aside>
         </div>
       </a>
-      <div className="my-6"></div>
+      {/* <div className="my-6"></div>
       <a className="project-pair project-hover underline-on-hover" href="projects#melrose-technology">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>Melrose Technology<svg width="18" height="18" stroke="#737373" strokeWidth="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </div>
           <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px'}}>A conversational AI application that identifies homeowners interested in selling their homes.</p>
         <aside style={{ color: '#737373', fontWeight: 500, fontSize: '16px', marginBottom: '24px'}}>Founder</aside>
         </div>
-      </a>
+      </a> */}
       <div className="my-6"></div>
       <a className="project-pair project-hover underline-on-hover" href="projects#lockhop">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>Lockhop<svg width="18" height="18" stroke="#737373" strokeWidth="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
@@ -90,7 +89,7 @@ export default function Page() {
          <p class="pb-2">Notable work:</p> <a class="project-pair svelte-ikj1jd" href="/projects#bore"><div class="text-black font-medium">Bore <svg width="18" height="18" stroke="currentColor" strokeWidth="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>bypass your NAT in just 400 lines of code</p> <aside class="svelte-ikj1jd">6500+ stars on GitHub</aside></div> </a><a class="project-pair svelte-ikj1jd" href="/projects#percival"><div class="text-black font-medium">Percival <svg width="18" height="18" stroke="currentColor" strokeWidth="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>reactive notebooks for exploratory data analysis</p> </div> </a><a class="project-pair svelte-ikj1jd" href="/projects#rustpad"><div class="text-black font-medium">Rustpad <svg width="18" height="18" stroke="currentColor" strokeWidth="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>self-hosted collaborative text editor</p> <aside class="svelte-ikj1jd">2M+ downloads</aside></div> </a><a class="project-pair svelte-ikj1jd" href="/projects#crepe"><div class="text-black font-medium">Crepe <svg width="18" height="18" stroke="currentColor" strokeWidth="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>compiled Datalog language in Rust</p> <aside class="svelte-ikj1jd">used by distributed databases &amp; security systems</aside></div> </a><a class="project-pair svelte-ikj1jd" href="/projects#fastseg"><div class="text-black font-medium">FastSeg <svg width="18" height="18" stroke="currentColor" strokeWidth="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>real-time semantic segmentation for self-driving cars</p> </div> </a><a class="project-pair svelte-ikj1jd" href="/projects#setwithfriends"><div class="text-black font-medium">Set with Friends <svg width="18" height="18" stroke="currentColor" strokeWidth="2" class="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div> <div><p>online multiplayer card game</p> <aside class="svelte-ikj1jd">30M+ page views, 900K+ users</aside></div> </a></div> <div class="space-y-5"><p>Previously, I worked at <a class="link" href="https://prosper.org">Prosper Robotics</a>, <a class="link" href="https://convex.dev">Convex</a>,
       <a class="link" href="https://jumptrading.com">Jump Trading</a>,
       <a class="link" href="https://scale.com">Scale AI</a>, and
-      <a class="link" href="https://nvidia.com">Nvidia</a>. I’ve also
+      <a class="link" href="https://nvidia.com">Nvidia</a>. I've also
       independently published things in the past, like a
       <a class="link" href="https://pubs.aip.org/books/monograph/129/F-ma-Contests2011-2019-Solutions-Manual">physics book</a>,
       <a class="link" href="https://www.combinatorics.org/ojs/index.php/eljc/article/view/v28i1p24/pdf">combinatorics research</a>, and
