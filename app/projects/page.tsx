@@ -82,25 +82,25 @@ function Projects() {
         },
       ]
     },
-    // {
-    //   name: 'Melrose Technology',
-    //   date: 'January 2024',
-    //   tags: ['Python', 'Conversational AI', 'Real estate'],
-    //   description: 'Melrose Technology uses conversational AI to identify homeowners interested in selling their homes. The seller leads are then given to real estate agents on a percentage of commission basis.',
-    //   images: [
-    //     {
-    //       src: '/images/melrose-technology.png',
-    //       alt: 'Austin Suhr Multiparcel Auction Bidding System Visualization',
-    //       loading: 'lazy'
-    //     },
-    //   ],
-    //   links: [
-    //     {
-    //       url: 'https://www.melroserealestatetechnology.com/',
-    //       text: 'Melrose Technology'
-    //     },
-    //   ]
-    // },
+    {
+      name: 'Melrose Technology',
+      date: 'January 2024',
+      tags: ['Python', 'Conversational AI', 'Real estate'],
+      description: 'Melrose Technology uses conversational AI to identify homeowners interested in selling their homes. The seller leads are then given to real estate agents on a percentage of commission basis.',
+      images: [
+        {
+          src: '/images/melrose-technology.png',
+          alt: 'Austin Suhr Melrose Technology Visualization',
+          loading: 'lazy'
+        },
+      ],
+      links: [
+        {
+          url: 'https://www.melroserealestatetechnology.com/',
+          text: 'Melrose Technology'
+        },
+      ]
+    },
   ];
 
   return (

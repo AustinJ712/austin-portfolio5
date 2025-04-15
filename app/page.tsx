@@ -59,14 +59,14 @@ export default function Page() {
         <aside style={{ color: '#737373', fontWeight: 500, fontSize: '16px', marginBottom: '24px'}}>Founder - sued by Amex/Resy</aside>
         </div>
       </a>
-      {/* <div className="my-6"></div>
+      <div className="my-6"></div>
       <a className="project-pair project-hover underline-on-hover" href="projects#melrose-technology">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>Melrose Technology<svg width="18" height="18" stroke="#737373" strokeWidth="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
         </div>
           <div><p style={{color:"#404040" , fontWeight: 500, fontSize: '16px'}}>A conversational AI application that identifies homeowners interested in selling their homes.</p>
         <aside style={{ color: '#737373', fontWeight: 500, fontSize: '16px', marginBottom: '24px'}}>Founder</aside>
         </div>
-      </a> */}
+      </a>
       <div className="my-6"></div>
       <a className="project-pair project-hover underline-on-hover" href="projects#lockhop">
         <div className="text-black font-medium" style={{fontWeight: 700, fontSize: '16px', marginBottom: '4px'}}>Lockhop<svg width="18" height="18" stroke="#737373" strokeWidth="2" className="lucide-icon lucide lucide-arrow-up-right inline text-neutral-400" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
